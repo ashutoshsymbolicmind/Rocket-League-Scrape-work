@@ -5,12 +5,13 @@
 ## Setup if running it on SSH browser in GCP
 1. Create a SSH browser session 
 2. Create a virtual env using 'python -m venv <ENVIRON_NAME>
-3. Install these dependencies 
+3. Install these dependencies
 
 ""
 pip install google-cloud-aiplatform
 pip install vertexai
 ""
+4. Autheicate using - "gcloud auth application-default login" - before running.
 
 Alternatively run on google colab - 
  - Run the 'rocket_league_main_script.ipynb' on Google Colab.
