@@ -11,6 +11,7 @@
 pip install google-cloud-aiplatform
 pip install vertexai
 ""
+
 4. Autheicate using - "gcloud auth application-default login" - before running.
 
 Alternatively run on google colab - 
