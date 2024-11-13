@@ -230,14 +230,14 @@ Specific details on Post-processing for youtube data in ```processed``` data is 
 Files - 
 ```youtube_to_gemini_processed.txt``` and ```youtube_to_gemini_processed_2.txt```
 
-*[ VIDEO_TITLE ]* <br>
+**[ VIDEO_TITLE ]** <br>
 < formatting according to one of the earlier story-like prompt passed> <br>
-*[ EOS ]* - used as a paragraph separator for each video transcript
+**[ EOS ]** - used as a paragraph separator for each video transcript
 
 ### Type 2 - Raw transcripts with EOS token added after every new transcript (Not passed to gemini-pro)
 
 All remaining files in the folder <br>
 
-*[ VIDEO_TITLE ]* <br>
+**[ VIDEO_TITLE ]** <br>
 < raw pulled transcript data output by youtube api> <br>
-*[ EOS ]* - used as a paragraph separator for each video transcript
+**[ EOS ]** - used as a paragraph separator for each video transcript
