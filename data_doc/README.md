@@ -236,7 +236,8 @@ Files -
 
 ### Type 2 - Raw transcripts with EOS token added after every new transcript (Not passed to gemini-pro)
 
-All remaining files in the folder 
+All remaining files in the folder <br>
+
 *[ VIDEO_TITLE ]* <br>
 < raw pulled transcript data output by youtube api> <br>
 *[ EOS ]* - used as a paragraph separator for each video transcript
